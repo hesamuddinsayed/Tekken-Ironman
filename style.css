@@ -1,0 +1,13 @@
+.container {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.character_name {
+    padding-top: 10%;
+}
