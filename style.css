@@ -1,6 +1,6 @@
-.container {
-    margin: 0%;
-    padding: 0%;
+body {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -8,6 +8,10 @@ button {
     cursor: pointer;
 }
 
-.character_name {
-    padding-top: 10%;
+#character_name {
+    padding-top: 10%
+}
+
+#stopwatch_display {
+    border: 5px solid;
 }

@@ -1,6 +1,6 @@
 const randomButton = document.getElementById("bttn");
 
-let characterList = [
+const characterList = [
     "Reina",
     "Victor Chevalier",
     "Panda",
@@ -9,13 +9,13 @@ let characterList = [
     "Alisa Bosconovitch",
     "Devil Jin",
     "Feng Wei",
-    "Dragunov",
+    "Sergei Dragunov",
     "Shaheen",
     "Steve Fox",
-    "Leo",
+    "Leo Kliesen",
     "Yoshimitsu",
     "Kuma",
-    "Azucena Milagros Ortiz Castillo",
+    "Azucena Ortiz",
     "Raven",
     "Jin Kazama",
     "Kazuya Mishima",
@@ -29,11 +29,10 @@ let characterList = [
     "Ling Xiaoyu",
     "Asuka Kazama",
     "Leroy Smith",
-    "Lili",
+    "Lili Rochefort",
     "Bryan Fury",
     "Hwoarang",
     "Claudio Sefarino",
-    "Sergei Dragunov",
     "Eddy Gordo",
     "Lidia Sobieska",
     "Heihachi Mishima",
