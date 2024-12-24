@@ -2,10 +2,33 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 button {
     cursor: pointer;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+#next_challenger {
+    background-color: hsl(120, 100%, 25%);
+}
+
+#next_challenger:hover {
+    background-color: hsl(120, 100%, 20%);;
+}
+
+#reset {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#reset:hover {
+    background-color: hsl(0, 100%, 45%);
 }
 
 #character_name {
@@ -13,5 +36,11 @@ button {
 }
 
 #stopwatch_display {
-    border: 5px solid;
+    border: 4px solid;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 75px;
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
 }
