@@ -44,3 +44,8 @@ button {
     font-family: monospace;
     font-weight: bold;
 }
+
+#characterPortrait {
+    height: 33vh;
+    width: auto;
+}
